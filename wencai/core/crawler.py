@@ -86,8 +86,8 @@ class Wencai(object):
 
         payload = {
             "question": query_string,
-            "page": 1,
-            "perpage": 50,
+            "page": 5,
+            "perpage": 100,
             "log_info": '{"input_type": "typewrite"}',
             "source": "Ths_iwencai_Xuangu",
             "version": 2.0,
